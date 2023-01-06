@@ -1,0 +1,40 @@
+.wrapper{
+	width: 1464px;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+	align-items: center;
+	padding: 0 15px 0 15px;
+}
+
+.flex{
+	display: flex;
+}
+
+.btn-reset{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+}
+
+/*.button {
+    border-radius: 3px;
+    padding: 17px 57px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}*/
+
+.dropbtn__down {
+	width: 10px;
+    height: 10px;
+    border-top: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    margin-right: 20px;
+    transform: rotate(135deg);
+    margin-left: 10px;
+    margin-top: 2px;
+}

@@ -1,0 +1,91 @@
+
+.swiper {
+    width: 100%;
+   
+    height: 100%;
+  }
+.swiper-wrapper{
+    width: 100%;
+    position: relative;
+}
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-image: url(./../../img/bannerpromotion.jpg);
+height: 100vh;
+
+}
+
+  
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    display: none;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    /* margin-top: -70px; */
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.swiper-button-next {
+    top: 50%;
+    right: 20px;
+}
+.swiper-button-prev {
+    top: 50%;
+    left: 10px;
+}
+
+.swiper-button-next{
+    background-image: url(./../../img/right.svg);
+}
+
+.swiper-button-prev{
+    background-image: url(./../../img/left.svg);
+}
+
+.first__slide--content{
+   
+    margin: 30% 0 0 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.title__first--slider {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 148%;
+    color: white;
+
+}
+.text__first--slider {
+    margin-top: 17px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: white;
+}
+.button__first--slider {
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+    padding: 16px 32px;
+    background: #3B44F6;
+    border-radius: 8px;
+    border: none;
+    max-width: 162px;
+    max-height: 59px;
+}
+

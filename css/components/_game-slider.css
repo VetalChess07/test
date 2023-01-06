@@ -1,0 +1,47 @@
+.swiper__inner {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1280px;
+    max-height: 512px;
+    margin: 0 auto;
+}
+.slider__wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+
+}
+.game__slide {
+    flex-shrink: 0;
+}
+.game--slide__img {
+}
+.game--slide__inner {
+    display: flex;
+    width: 100%;
+}
+.slide--game__title {
+}
+.slide--game__text {
+}
+.slide--game__span {
+}
+.slide--game__price {
+}
+
+.swiper-button-next--1 {
+}
+.swiper-button-prev--1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url(./../../img/right\ --1\(1\).svg);
+    position: absolute;
+    left: 1274px;
+    top: 100px;
+}

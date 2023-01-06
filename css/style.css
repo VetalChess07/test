@@ -1,0 +1,16 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+
+@import "../css/components/_header.css";
+@import "../css/components/_first-slider.css";
+@import "../css/components/_store.css";
+@import "../css/components/_games.css";
+@import "../css/components/_game-slider.css";
+
+
+
+@import "../css/components/_@media.css";
